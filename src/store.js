@@ -17,4 +17,27 @@ export const store = reactive({
         },
     ],
 
+    photos: [
+        {
+            name: "",
+            path: "",
+        },
+        {
+            name: "",
+            path: "",
+        },
+        {
+            name: "",
+            path: "",
+        },
+        {
+            name: "",
+            path: "",
+        },
+        {
+            name: "",
+            path: "",
+        },
+    ],
+
 });
