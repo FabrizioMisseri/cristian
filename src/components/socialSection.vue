@@ -5,8 +5,8 @@ export default {
 </script>
 
 <template>
-    <section>
-        ciao sono sezione social
+    <section class="container">
+
     </section>
 </template>
 
