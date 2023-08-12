@@ -1,16 +1,22 @@
 <script>
-import SingleSocial from '../mini-components/singleSocial.vue';
 import singleSocial from '../mini-components/singleSocial.vue';
+import { store } from '../store';
 
 export default {
     name: "socialSection",
-    components: { SingleSocial }
+    components: { singleSocial },
+
+    data() {
+        return {
+            store,
+        }
+    },
 }
 </script>
 
 <template>
-    <section class="container my-5 py-5">
-        <SingleSocial v-for="n in 3"></SingleSocial>
+    <section class="container my-4 py-4">
+        <singleSocial v-for="(social, index) in store.social" :key="index" :social="social"></singleSocial>
     </section>
 </template>
 
