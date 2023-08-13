@@ -20,23 +20,23 @@ export const store = reactive({
     photos: [
         {
             name: "",
-            path: "",
+            path: "/img/",
         },
         {
             name: "",
-            path: "",
+            path: "/img/",
         },
         {
             name: "",
-            path: "",
+            path: "/img/",
         },
         {
             name: "",
-            path: "",
+            path: "/img/",
         },
         {
             name: "",
-            path: "",
+            path: "/img/",
         },
     ],
 

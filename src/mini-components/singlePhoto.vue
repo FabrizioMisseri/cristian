@@ -5,6 +5,15 @@ export default {
     props: {
         photo: Object,
     },
+
+    methods: {
+        getImage(path) {
+            return new URL(path, import.meta.url).href;
+        },
+        // :src="getImage(photo)"
+    },
+
+
 }
 </script>
 
