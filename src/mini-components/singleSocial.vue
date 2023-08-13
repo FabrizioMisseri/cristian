@@ -11,7 +11,7 @@ export default {
 <template>
     <section class="row my-5">
 
-        <a :href="social.link" class="btn btn-custom col-6 offset-3 py-3 rounded-4 fs-4">
+        <a :href="social.link" class="btn btn-custom col-10 col-md-8 offset-1 offset-md-2 py-3 rounded-4 fs-4">
             {{ social.name }}
         </a>
 
@@ -25,7 +25,7 @@ export default {
 
     &:hover {
         animation-name: scaleUp;
-        animation-duration: .4s;
+        animation-duration: .25s;
         animation-fill-mode: forwards;
     }
 }

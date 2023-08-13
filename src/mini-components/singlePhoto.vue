@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-    <div class="col-4 px-4">
+    <div class="col-12 col-md-6 col-lg-4 px-4 ">
 
         <figure class="rounded-4 debug">
 

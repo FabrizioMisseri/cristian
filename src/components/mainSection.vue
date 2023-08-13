@@ -39,6 +39,8 @@ export default {
     .side {
         width: 50%;
 
+
+
         &.sx {
             //debug
             background-color: aqua;
@@ -46,4 +48,21 @@ export default {
         }
     }
 }
+
+// media --------------------------------------
+@media screen and (max-width: 900px) {
+    .wrapper {
+        display: inline-block;
+
+        .side {
+            width: 100%;
+
+            &.dx {
+                padding: 1.7em;
+            }
+        }
+    }
+}
+
+// media --------------------------------------
 </style>
