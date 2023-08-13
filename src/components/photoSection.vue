@@ -1,10 +1,21 @@
 <script>
 import { store } from '../store';
 import singlePhoto from '../mini-components/singlePhoto.vue';
+// AOS-------------
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+// ----------------
+
 
 export default {
     name: "photoSection",
-    components: { singlePhoto },
+    components: { singlePhoto, AOS },
+
+    // AOS --------------------
+    mounted() {
+        AOS.init();
+    },
+    // AOS --------------------
 
     data() {
         return {
@@ -18,7 +29,9 @@ export default {
     <section class="container my-4 py-4">
         <div class="row g-4">
 
-            <singlePhoto v-for="(photo, index) in store.photos" :key="index" :social="photo"></singlePhoto>
+            <singlePhoto data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50" data-aos-once="true"
+                v-for="(photo, index) in store.photos" :key="index" :social="photo">
+            </singlePhoto>
 
         </div>
     </section>
