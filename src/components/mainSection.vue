@@ -47,7 +47,7 @@ export default {
     }
 }
 
-// media --------------------------------------
+// MEDIA --------------------------------------
 @media screen and (max-width: 900px) {
     .wrapper {
         display: inline-block;
@@ -61,6 +61,4 @@ export default {
         }
     }
 }
-
-// media --------------------------------------
 </style>
