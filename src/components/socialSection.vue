@@ -25,7 +25,8 @@ export default {
 </script>
 
 <template>
-    <section class="container my-4 py-4">
+    <section class="container my-5 py-5">
+        <h3 class="text-center">Follow me:</h3>
         <singleSocial data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50" data-aos-once="true"
             v-for="(social, index) in store.social" :key="index" :social="social"></singleSocial>
     </section>

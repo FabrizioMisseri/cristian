@@ -26,7 +26,7 @@ export default {
 </script>
 
 <template>
-    <section class="container my-4 py-4">
+    <section class="container my-5 py-5">
         <div class="row g-4">
 
             <singlePhoto data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50" data-aos-once="true"
