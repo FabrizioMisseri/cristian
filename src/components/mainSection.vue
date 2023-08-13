@@ -33,8 +33,6 @@ export default {
 .wrapper {
     display: flex;
     width: 100%;
-    //debug
-    min-height: 600px;
 
     .side {
         width: 50%;
@@ -44,7 +42,7 @@ export default {
         &.sx {
             //debug
             background-color: aqua;
-            height: 600px;
+            height: 500px;
         }
     }
 }
