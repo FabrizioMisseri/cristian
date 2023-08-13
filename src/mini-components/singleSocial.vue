@@ -11,7 +11,7 @@ export default {
 <template>
     <section class="row my-5">
 
-        <a :href="social.link" class="btn btn-custom col-6 offset-3 py-3">
+        <a :href="social.link" class="btn btn-custom col-6 offset-3 py-3 rounded-4 fs-4">
             {{ social.name }}
         </a>
 
@@ -37,7 +37,7 @@ export default {
 
     100% {
         transform: scale(1.2);
-        font-weight: 800;
+        font-weight: 700;
     }
 }
 </style>
