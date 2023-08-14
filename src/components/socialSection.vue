@@ -11,7 +11,7 @@ export default {
     components: { singleSocial, AOS },
 
     // AOS --------------------
-    mounted() {
+    created() {
         AOS.init();
     },
     // AOS --------------------

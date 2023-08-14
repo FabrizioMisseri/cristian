@@ -12,7 +12,7 @@ export default {
     components: { singlePhoto, AOS },
 
     // AOS --------------------
-    mounted() {
+    created() {
         AOS.init();
     },
     // AOS --------------------
